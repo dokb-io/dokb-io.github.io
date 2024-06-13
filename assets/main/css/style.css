@@ -2572,15 +2572,18 @@ body {
     left: 80px;
     width: 640px;
     z-index: 999;
+    border: 1px solid #444;
 }
 .popup img{
     max-width: 100%;
 }
+.popup .popup-actions{
+    background-color: #fff;
+    text-align: center;
+    padding: 8px 0;
+}
 .popup .popup-close{
-    position: absolute;
-    right: 15px;
-    top: 4px;
-    color: #fff;
+    color: #222;
     cursor: pointer;
     font-size: 32px;
 }
