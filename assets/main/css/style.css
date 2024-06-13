@@ -294,6 +294,7 @@ body {
     height: 45px;
     background-color: #fdbe0f;
     overflow: hidden;
+    display: none;
 }
 .oneline_conts {
     max-width: 1200px;
