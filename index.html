@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/assets/main/css/bootstrap.min.css?v=4efeff4570" />
     <link rel="stylesheet" href="/assets/main/css/swiper.min.css?v=4efeff4570" />
     <link rel="stylesheet" href="/assets/main/css/mediumish.css?v=4efeff4570" />
-    <link rel="stylesheet" href="/assets/main/css/style.css?v=4efeff4572" />
+    <link rel="stylesheet" href="/assets/main/css/style.css?v=4efeff4573" />
     <script src="/assets/main/js/jquery-3.2.1.min.js?v=4efeff4570"></script>
     <script src="/assets/main/js/swiper.min.js?v=4efeff4570"></script>
     <script src="/assets/main/js/imagesloaded.pkgd.min.js?v=4efeff4570"></script>
@@ -89,10 +89,10 @@
 </head>
 
 <body>
-    <!-- <div class="popup">
+    <div class="popup">
         <div class="popup-content">
             <a href="https://form.typeform.com/to/mnTSZgVk" target="_blank">
-                <img src="/assets/images/popup_image.jpg?v=4efeff4570" />
+                <img src="/assets/images/popup_image2.jpg" />
             </a>
         </div>
         <div class="popup-actions">
@@ -100,7 +100,7 @@
                 닫기
             </div>
         </div>
-    </div> -->
+    </div>
     <div class="body_wrap">
                 <!-- oneline news -->
         <div class="oneline_wrap">
@@ -411,6 +411,12 @@
         <!-- //footer -->
     </div>
     <script>
+        
+        var showPopupTime = new Date("2024-06-19T15:00:00");
+        var currentTime = new Date();
+        if(currentTime >= showPopupTime){
+            $(".popup").show();
+        }
         $("body").on("click", ".popup-close", function(){
             $(".popup").remove();
         });

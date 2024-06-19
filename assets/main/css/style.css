@@ -2568,6 +2568,7 @@ body {
 
 .popup{
     position: fixed;
+    display: none;
     top: 160px;
     left: 80px;
     width: 800px;
