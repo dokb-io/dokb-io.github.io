@@ -89,7 +89,7 @@
 </head>
 
 <body>
-    <div class="popup">
+    <!-- <div class="popup">
         <div class="popup-content">
             <a href="https://form.typeform.com/to/mnTSZgVk" target="_blank">
                 <img src="/assets/images/popup_image2.jpg" />
@@ -100,7 +100,7 @@
                 닫기
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="body_wrap">
                 <!-- oneline news -->
         <div class="oneline_wrap">
@@ -412,14 +412,15 @@
     </div>
     <script>
         
-        var showPopupTime = new Date("2024-06-20T10:00:00");
-        var currentTime = new Date();
-        if(currentTime >= showPopupTime){
-            $(".popup").show();
-        }
-        $("body").on("click", ".popup-close", function(){
-            $(".popup").remove();
-        });
+        // var showPopupTime = new Date("2024-06-20T10:00:00");
+        // var currentTime = new Date();
+        // if(currentTime >= showPopupTime){
+        //     $(".popup").show();
+        // }
+        // $("body").on("click", ".popup-close", function(){
+        //     $(".popup").remove();
+        // });
+        
         /* animation top fadein */
         function aniToTop1() {
             var winST = $(window).scrollTop();
