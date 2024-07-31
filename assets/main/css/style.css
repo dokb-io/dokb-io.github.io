@@ -2569,9 +2569,9 @@ body {
 .popup{
     position: fixed;
     display: none;
-    top: 160px;
+    top: 15px;
     left: 80px;
-    width: 800px;
+    width: 400px;
     z-index: 999;
     border: 1px solid #444;
 }
