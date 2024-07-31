@@ -2571,22 +2571,28 @@ body {
     display: none;
     top: 15px;
     left: 80px;
-    width: 400px;
+    width: 450px;
     z-index: 999;
     border: 1px solid #444;
 }
 .popup img{
     max-width: 100%;
 }
+.popup .popup-actions > div{
+    display: flex;
+    justify-content: end;
+    padding: 12px 0 16px 0;
+}
 .popup .popup-actions{
     background-color: #fff;
     text-align: center;
-    padding: 8px 0;
 }
 .popup .popup-close{
     color: #222;
     cursor: pointer;
-    font-size: 32px;
+    font-size: 24px;
+    line-height: 0;
+    padding-right: 4px;
 }
 
 /********** mobile ************/
@@ -2598,7 +2604,7 @@ body {
         width: calc(100vw - 40px);
     }
     .popup .popup-close{
-        font-size: 14px;
+        font-size: 24px;
     }
     .oneline_wrap {
         height: 32px;
