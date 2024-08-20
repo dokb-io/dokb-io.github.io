@@ -414,9 +414,13 @@
     </div>
     <script>
         
-        var showPopupTime = new Date("2024-08-01T09:00:00");
+        // var showPopupTime = new Date("2024-08-01T09:00:00");
+        var hidePopupTime = new Date("2024-08-20T18:00:00");
         var currentTime = new Date();
-        if(currentTime >= showPopupTime){
+        // if(currentTime >= showPopupTime){
+        //     $(".popup").show();
+        // }
+        if(currentTime <= showPopupTime){
             $(".popup").show();
         }
         $("body").on("click", ".popup-close", function(){
